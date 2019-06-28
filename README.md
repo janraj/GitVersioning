@@ -3,8 +3,9 @@
 - **CI tools used for Build, test and push the image**
 - **Pushing the image to a separate registry**
 - **Require an automated versioning mechanism for tagging (tag of type 1.0.0) the image**
-# What does this repo provides
-- **Allows to commit git hub changes with a TAG in the commit message**
+# This repo provides
+- **Version Automation script**
+- **Which allows to commit git hub changes with a TAG in the commit message**
 - **Based on the tag new version will be created for the image**
 - **Version history will be pushed back to Git**
 
