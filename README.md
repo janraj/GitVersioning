@@ -17,7 +17,7 @@ With cloud-native software in general and Kubernetes applications in particular,
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [CI Pipeline flow](#CI Pipeline)
+- [CI Pipeline flow](#ci-pipeline)
 - [How it Works](#how-it-works)
 
 ## Introduction
