@@ -47,11 +47,11 @@ This is typical CI architecture. User commit a code to github, which will be pul
 
 ## Script variables
 Script uses many variables, in which some we have to set and rest is  taken from travis default enviornment variables.
-- IMAGE_NAME: Name of the image you are going to push to the registry 
-- version/VERSION: File present in GitHub for repersenting current version (If you are using different name please update the script)
-- TRAVIS_COMMIT_MESSAGE: We get from travis env variable. This is same as git commit message.
-- TRAVIS_BUILD_NUMBER: We get from travis env variable. 
-- GH_TOKEN: Github tocken, you have to create a github api tocken and use with travis. 
-- DOCKER_REGISTRY: Docker registry name
-- QUAY_USERNAME: Docker registry username 
-- QUAY_PASSWORD: Docker registry password
+- **IMAGE_NAME:** Name of the image you are going to push to the registry 
+- **version/VERSION:** File present in GitHub for repersenting current version (If you are using different name please update the script)
+- **TRAVIS_COMMIT_MESSAGE:** We get from travis env variable. This is same as git commit message.
+- **TRAVIS_BUILD_NUMBER:** We get from travis env variable. 
+- **GH_TOKEN:** Github tocken, you have to create a github api tocken and use with travis. 
+- **DOCKER_REGISTRY:**  Docker registry name
+- **QUAY_USERNAME:**  Docker registry username 
+- **QUAY_PASSWORD:**  Docker registry password
